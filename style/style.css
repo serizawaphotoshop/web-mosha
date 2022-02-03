@@ -3,4 +3,66 @@
     padding: 0;
     margin: 0;
     vertical-align: bottom;
+    font-family: 'Meiryo',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/back.png);
+}
+.wrapper{
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    /* なぜbodyのbackgroundが透けるのか */
+    background-color: #fff;
+}
+h1{
+    font-size: 25px;
+    font-weight: normal;
+    min-height: 36px;
+    padding-left: 56px;
+    background-image: url(../img/midashi01.png);
+    background-repeat: no-repeat;
+    /* あとは、ボックス内の文字を下につけたいけど、そのcssは後回し */
+}
+h2{
+    font-size: 20px;
+    overflow: hidden;
+    background-color: #00a3d9;
+    color: #fff;
+    min-height: 45px;
+    display: flex;
+    align-items: center;
+}
+h3{
+    font-size: 20px;
+    font-weight: normal;
+    color: #00a3d9;
+}
+p{
+    font-size: 14px;
+}
+dd{
+    font-size: 16px;
+}
+time{
+    font-size: 12px;
+}
+th,td{
+    font-size: 14px;
+}
+li{
+    font-size: 14px;
+}
+header{
+    border-top: 9px solid #00a3d9;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    background: linear-gradient(180deg, #ffffff 0%, #e7eeee 100%);
+    border-bottom: 1px dotted #040000;
+}
+header .wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: inherit;
 }
