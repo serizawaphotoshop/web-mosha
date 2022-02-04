@@ -48,8 +48,11 @@ h3{
 p{
     font-size: 14px;
 }
+dt{
+    font-size: 18px;
+}
 dd{
-    font-size: 16px;
+    font-size: 14px;
 }
 time{
     font-size: 12px;
@@ -134,4 +137,30 @@ footer p{
 /* index.html固有 */
 .main-img{
     margin-bottom: 30px;
+}
+.news-list{
+    border-top: 1px dotted #040000;
+}
+dl{
+    padding: 20px 15px 29px 15px; 
+    border-bottom: 1px dotted #040000;;
+    border-collapse: collapse;
+    max-width: 100%;
+    padding-left: 50px;
+}
+dt{
+    display: flex;
+    justify-content:space-between;
+    font-size: 18px;
+    /* 吹き出しアイコンの位置調整 */
+    background-image: url(../img/icon02.png);
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    margin-left: -35px;
+}
+dt a{
+    font-size: 18px;
+}
+dd{
+    margin-top: 1em;
 }
