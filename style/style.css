@@ -19,6 +19,8 @@ body{
     padding-top: 30px;
     padding-right: 50px;
     padding-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
 }
 h1{
     font-size: 25px;
@@ -33,7 +35,6 @@ h1{
 h2{
     font-size: 20px;
     padding-left: 1em;
-    overflow: hidden;
     background-color: #00a3d9;
     color: #fff;
     min-height: 45px;
@@ -64,6 +65,9 @@ li{
     font-size: 14px;
 }
 a{
+    display: block;
+}
+img{
     display: block;
 }
 header{
@@ -138,6 +142,13 @@ footer p{
 .main-img{
     margin-bottom: 30px;
 }
+.news{
+    margin-bottom: 56px;
+}
+.news h1{
+    min-height: 40px;
+    background-image: url(../img/icon01.png);
+}
 .news-list{
     border-top: 1px dotted #040000;
 }
@@ -163,4 +174,41 @@ dt a{
 }
 dd{
     margin-top: 1em;
+}
+.pickup h2{
+    border-top-left-radius: 4px 4px;
+    border-top-right-radius: 4px 4px;
+}
+.pickup-container{
+    padding: 35px 8px 38px 8px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #13b7eb;
+    background-color: #f5f5f5;
+}
+.pickup-box{
+    max-width: 245px;
+}
+.pickup-box img{
+    margin-bottom: 8px;
+}
+.pickup-box a{
+    display: inline;
+    font-size: 16px;
+}
+.sns{
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.sns-box{
+    background-color: #fff;
+    display: flex;
+}.sns-box a{
+    padding: 15px;
+}
+.sns-box p{
+    border-left: 3px solid #f5f5f5;
+    width: 296px;
 }
