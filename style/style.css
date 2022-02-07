@@ -63,8 +63,17 @@ dd{
 time{
     font-size: 12px;
 }
+th{
+    font-weight: normal;
+}
 th,td{
     font-size: 14px;
+    padding-left: 1em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    text-align: left;
+    vertical-align: middle;
+
 }
 li{
     font-size: 14px;
@@ -228,11 +237,42 @@ dd{
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
+    align-items: flex-start;
 }
 .section-img{
     background-color: #f5f5f5;
     padding: 10px;
 }
+#company{
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+#company table{
+    width: 445px;
+}
 #company th,#company td{
     border-bottom: 1px solid #ccd5de;
+}
+#company th{
+    width: 85px;
+    font-size: 16px;
+}
+
+/* section#access */
+#access{
+    margin-bottom: 110px;
+}
+.access-route{
+    background-color: #f5f5f5;
+    width: 300px;
+    padding: 1em;
+    font-size: 14px;
+}
+#access th{
+    background-color: #dceef7;
+    width: 80px;
+}
+#access td{
+    background-color: #f5f5f5;
+    width: 355px;
 }
