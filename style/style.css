@@ -283,3 +283,12 @@ dd{
 #access a{
     display: inline;
 }
+/* recruit.html */
+.recruit{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.recruit th{
+    background-color: #e6e6e6;
+}
