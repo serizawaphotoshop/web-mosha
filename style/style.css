@@ -312,11 +312,13 @@ dd{
     width: 90px;
     padding-left: 0;
     padding-right: 0;
-
 }
 .inner-table td{
     border: none;
     padding-left: 0;
     padding-right: 0;
-
 }
+.inner-table .dotted{
+    border-bottom: 1px dotted #b3b3b3;
+}
+/* products.html */
