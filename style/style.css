@@ -289,6 +289,34 @@ dd{
     align-items: flex-start;
     justify-content: space-between;
 }
+.recruit-table{
+    width: 440px;
+}
 .recruit th{
     background-color: #e6e6e6;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+.recruit td{
+    padding: 1em;
+    border: 1px solid #ccd5de;
+    width: 360px;
+}
+.inner-table{
+    margin-top: -1em;
+    margin-bottom: -1em;
+    border-collapse: collapse;
+}
+.inner-table th{
+    background-color: #fff;
+    width: 90px;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+.inner-table td{
+    border: none;
+    padding-left: 0;
+    padding-right: 0;
+
 }
