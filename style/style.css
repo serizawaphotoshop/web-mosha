@@ -26,6 +26,7 @@ main{
     max-width: 770px;
 }
 h1{
+    width: 770px;
     font-size: 25px;
     font-weight: normal;
     min-height: 36px;
@@ -37,7 +38,7 @@ h1{
     display: flex;
     align-items: bottom;
 }
-h2{
+/* h2{
     font-size: 20px;
     padding-left: 1em;
     background-color: #00a3d9;
@@ -45,6 +46,27 @@ h2{
     min-height: 45px;
     display: flex;
     align-items: center;
+} */
+h2{
+    width: 100%;
+    font-size: 20px;
+    padding-left: 1em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    background-color: #00a3d9;
+    color: #fff;
+    position: relative;
+
+}
+h2::before{
+    content: '';
+    position: absolute;
+    /* margin-bottom: px; */
+    top: 100%;
+  left: 50%;
+  margin-left: -15px;
+  border: 15px solid transparent;
+  border-top: 14px solid #00a3d9;
 }
 h3{
     font-size: 20px;
@@ -207,13 +229,19 @@ dd{
     margin-top: 1em;
 }
 .pickup h2{
+    display: flex;
+    align-items: center;
+    position: static; 
     padding-left: 8px;
+    padding-top: auto;
+    padding-bottom: auto;
     border-top-left-radius: 4px 4px;
     border-top-right-radius: 4px 4px;
+    background-image: url(../img/icon03.png);
+    background-repeat: no-repeat;
 }
 .pickup h2::before{
-    content: url(../img/icon03.png);
-    margin-right: 8px;
+    display: none;
 }
 .pickup-container{
     padding: 35px 8px 38px 8px;
@@ -242,6 +270,9 @@ dd{
 .section-img{
     background-color: #f5f5f5;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #company{
     margin-top: 50px;
@@ -323,3 +354,38 @@ dd{
     border-bottom: 1px dotted #b3b3b3;
 }
 /* products.html */
+.products-section-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+}
+.jirei-container{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    border-right: 1px solid #00a3d9;
+    border-bottom: 1px solid #00a3d9;
+    border-left: 1px solid #00a3d9;
+}
+.tokuchou-txt{
+    margin-right: 30px;
+}
+#office table{
+    width: 100%;
+}
+#office th,#office td{
+    padding:0.5em ;
+}
+#office .pref{
+    background-color: #dceef7;
+}
+#office th{
+    background-color: #00a3d9;
+    color: #fff;
+}
+#office td{
+    background-color: #f3f3f3;
+}
