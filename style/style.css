@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     vertical-align: bottom;
-    font-family: 'Meiryo',sans-serif;
+    font-family: sans-serif;
     box-sizing: border-box;
 }
 body{
@@ -40,10 +40,10 @@ main{
 /* あとは、ボックス内の文字を下につけたいけど、そのcssは後回し */
 h1{
     width: 770px;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: normal;
     min-height: 36px;
-    margin-bottom: 22px;
+    margin-bottom: 10px;
 }
 h1::before{
     content: url("../img/midashi01.png");
@@ -217,7 +217,7 @@ footer p{
     margin-bottom: 56px;
 }
 .news h1{
-    font-size: 25px;
+    font-size: 30px;
     min-height: 40px;
 }
 .news h1::before{
@@ -306,6 +306,10 @@ h3{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.section-img p{
+    color: #00a3d9;
+    margin-top: 5px;
 }
 #company{
     margin-top: 50px;
