@@ -114,6 +114,10 @@ li{
 }
 a{
     display: block;
+    color:#00a3d9;
+}
+a:visited{
+    color:#00a3d9;
 }
 img{
     display: block;
@@ -201,6 +205,7 @@ footer p{
 }
 .sns-box p{
     border-left: 3px solid #f5f5f5;
+    padding-left: 15px;
     width: 296px;
     display: flex;
     align-items: center;
@@ -228,6 +233,9 @@ footer p{
 }
 .news-list{
     border-top: 1px dotted #040000;
+}
+.news a{
+    font-size: 16px;
 }
 dl{
     padding: 20px 15px 29px 15px; 
@@ -291,7 +299,10 @@ h3{
 }
 .pickup-box a{
     display: inline;
-    font-size: 16px;
+    font-size: 14px;
+}
+.pickup-box p{
+    font-size:12px;
 }
 /* aboutus.html固有 */
 .section-item{
@@ -402,6 +413,9 @@ h3{
     padding-bottom: 50px;
     display: flex;
 }
+.tokuchou-txt p{
+    margin-bottom: 1em;
+}
 .jirei-container{
     padding-left: 50px;
     padding-right: 50px;
@@ -429,7 +443,10 @@ h3{
 #office th{
     background-color: #00a3d9;
     color: #fff;
+    font-size: 14px;
 }
 #office td{
     background-color: #f3f3f3;
+    font-size: 12px;
+    color: #00a3d9;
 }
